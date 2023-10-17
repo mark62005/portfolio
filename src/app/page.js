@@ -1,8 +1,8 @@
 import AboutMeSection from "@components/AboutMeSection";
+import EducationSection from "@components/EducationSection";
 import Header from "@components/Header";
 import HeroSection from "@components/HeroSection";
 import SkillsSection from "@components/SkillsSection";
-import Image from "next/image";
 
 export default function Home() {
 	return (
@@ -12,6 +12,7 @@ export default function Home() {
 				<HeroSection />
 				<AboutMeSection />
 				<SkillsSection />
+				<EducationSection />
 			</main>
 		</div>
 	);
