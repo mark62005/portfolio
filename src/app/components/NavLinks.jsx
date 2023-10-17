@@ -4,7 +4,7 @@ const NavLinks = ({ href, title }) => {
 	return (
 		<Link
 			href={href}
-			className="p-3 text-lg hover:text-gray-400"
+			className="p-3 text-lg text-white hover:text-gray-400"
 		>
 			{title}
 		</Link>
