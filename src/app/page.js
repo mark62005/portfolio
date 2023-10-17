@@ -1,6 +1,7 @@
 import AboutMeSection from "@components/AboutMeSection";
 import Header from "@components/Header";
 import HeroSection from "@components/HeroSection";
+import SkillsSection from "@components/SkillsSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 			<main className="container mt-24 mx-auto px-12 py-4">
 				<HeroSection />
 				<AboutMeSection />
+				<SkillsSection />
 			</main>
 		</div>
 	);
