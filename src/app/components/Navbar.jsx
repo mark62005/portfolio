@@ -14,6 +14,10 @@ const navLinks = [
 		href: "#about",
 		title: "About",
 	},
+	{
+		href: "#contact",
+		title: "Contact",
+	},
 ];
 
 const Navbar = () => {

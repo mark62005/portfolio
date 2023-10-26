@@ -103,7 +103,10 @@ const ContactMeSection = () => {
 	};
 
 	return (
-		<section className="grid grid-cols-1 lg:grid-cols-2 items-center py-8 px-4">
+		<section
+			className="grid grid-cols-1 lg:grid-cols-2 items-center py-8 px-4"
+			id="contact"
+		>
 			<div>
 				<SectionHeaderText text="Contact Me" />
 				<p>Feel free to connect with me!</p>
