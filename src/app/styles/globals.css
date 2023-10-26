@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+	.response-msg-success {
+		color: theme("colors.success");
+		background-color: theme("backgroundColor.success");
+		border-color: theme("borderColor.success");
+	}
+
+	.response-msg-error {
+		color: theme("colors.error");
+		background-color: theme("backgroundColor.error");
+		border-color: theme("borderColor.error");
+	}
+}
+
 :root {
 	--foreground-rgb: 255, 255, 255;
 	--background-start-rgb: 214, 219, 220;
