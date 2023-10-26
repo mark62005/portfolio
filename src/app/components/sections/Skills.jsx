@@ -1,7 +1,7 @@
 import SectionHeaderText from "./SectionHeaderText";
-import SkillCard from "./SkillCard";
+import SkillCard from "../SkillCard";
 
-const SkillsSection = () => {
+const Skills = () => {
 	const skills = [
 		{
 			title: "Frontend",
@@ -44,4 +44,4 @@ const SkillsSection = () => {
 		</section>
 	);
 };
-export default SkillsSection;
+export default Skills;

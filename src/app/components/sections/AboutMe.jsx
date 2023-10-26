@@ -1,7 +1,7 @@
 import SectionHeaderText from "./SectionHeaderText";
 import Image from "next/image";
 
-const AboutMeSection = () => {
+const AboutMe = () => {
 	return (
 		<section className="py-8 px-4">
 			<SectionHeaderText text="About Me" />
@@ -26,4 +26,4 @@ const AboutMeSection = () => {
 		</section>
 	);
 };
-export default AboutMeSection;
+export default AboutMe;
