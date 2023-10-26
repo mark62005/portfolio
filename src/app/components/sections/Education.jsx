@@ -1,6 +1,6 @@
 import SectionHeaderText from "./SectionHeaderText";
 
-const EducationSection = () => {
+const Education = () => {
 	const educations = [
 		{
 			school: "Cornerstone International Community College of Canada",
@@ -58,4 +58,4 @@ const EducationSection = () => {
 		</section>
 	);
 };
-export default EducationSection;
+export default Education;

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const HeroSection = () => {
+const Hero = () => {
 	return (
 		<section className="lg:py-16">
 			<div className="grid grid-cols-1 sm:grid-cols-12">
@@ -45,4 +45,4 @@ const HeroSection = () => {
 		</section>
 	);
 };
-export default HeroSection;
+export default Hero;

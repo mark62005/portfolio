@@ -4,13 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 import SectionHeaderText from "./SectionHeaderText";
-import FormControl from "./FormControl";
-import FormResponseMessage from "./FormResponseMessage";
+import FormControl from "../forms/FormControl";
+import FormResponseMessage from "../forms/FormResponseMessage";
 
 import { getSanitizeInput } from "@utils/utils";
 import { isValidEmail } from "@utils/utils";
 
-const ContactMeSection = () => {
+const ContactMe = () => {
 	const [isLoading, setIsLoading] = useState(false);
 
 	const [emailInput, setEmailInput] = useState("");
@@ -178,4 +178,4 @@ const ContactMeSection = () => {
 		</section>
 	);
 };
-export default ContactMeSection;
+export default ContactMe;
